@@ -1,0 +1,107 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px gray solid;
+    padding: 0 4%;
+
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header a{
+ color: black;
+ text-decoration: none;
+ margin-right: 10px;
+ text-transform: uppercase;
+ font-weight: 500;
+
+}
+header button{
+
+    height: 35px;
+    width: 70px;
+    border-radius: 15px;
+    border: 0;
+}
+header button:nth-child(2){
+    background: white;
+    color: black;
+    border: 1px black solid;
+    margin-right: 10px;
+
+}
+header button:nth-child(3){
+    background:black;
+    color: white;
+    border: 1px black solid;
+    margin-right: 10px;
+
+}
+.container{
+    margin: 1% 2%;
+}
+.alingcenter{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.bg-red{
+    background-color: rgb(255, 0, 68);
+    color: white;
+}
+p{
+
+    font-size: 25px;
+}
+h1{
+    font-size: 45px ;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.child{
+    flex: 1;
+}
+img{
+    width: 100%;
+}
+.child button{
+    padding: 10px 15px;
+    color:white;
+    border:white 1px solid;
+    background: transparent;
+    border-radius: 15px;
+}
+.bg-green1{
+    background-color: #00b388;
+    color: black;
+}
+.bg-green2{
+    background-color: #006241;
+    color: white;
+
+}
+.bg-green3{
+background-color:#1e3932;
+color: white;
+
+}
+.bg-red2{
+    background-color: #d50032;
+    color: white;
+}
